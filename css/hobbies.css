@@ -1,0 +1,35 @@
+.hobbieslist {
+  list-style-type: none;
+  background-color:rgb(229,80,57,0.7);
+  padding: 10px;
+  margin:auto;
+  width: 50%
+}
+.hobbies {
+  background-color:rgb(248,194,145,0.5);
+  margin: 10px;
+  padding:5px;
+  text-align: center
+}
+.hobbies1 {
+  background-color:rgb(248,194,145,1);
+  margin: 10px;
+  padding:5px;
+  text-align: center;
+}
+.hobbiesimglist{
+  list-style-type: none;
+  text-align:center;
+}
+.hobbiesli{
+  background-color: rgb(229,80,57,0.7);
+  padding:1%;
+  margin:auto
+}
+.hobbiesimg{
+  background-color:#f8c291;
+  padding:15px;
+  width: 98%;
+  margin-top:1%;
+  margin-bottom:1%
+}
