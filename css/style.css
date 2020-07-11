@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-image:url(fondo.gif);
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  background-color: rgb(229,80,57,0.7);
+  width: 98%;
+  margin:auto;
+  display: flex;
+  padding: 15px
+}
+.foto {
+  display:block;
+  background-color: rgb(248,194,145,0.7);
+  text-align: center;
+  width: 25%;
+}
+.intro {
+  background-color: rgb(248,194,145,0.7);
+  display:block;
+  text-align: center;
+  width: 50%;
+}
+.pic {
+  background-color: rgb(248,194,145,0.7);
+  display:block;
+  text-align: center;
+  width: 25%;
+}
+
+.nav-list{
+  list-style-type: none;
+  display: flex;
+  background-color: rgb(229,80,57,0.7);
+  padding: 15px;
+  justify-content: center;
+}
+.nav-links{
+  display:block;
+  background-color: rgb(248, 194, 145);
+  text-align: center;
+  margin:5px;
+}
+.footer {
+  opacity: 1;
+  background-color:rgb(229,80,57,0.7);
+  margin:0px
