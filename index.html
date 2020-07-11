@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>My protein</title>
+    <script scr="/jmol/jsmol/JSmol.min.js"></script>
+    <script scr="/jmol/jsmol/js/Jmol2.js"></script>
+    <script> jmolInitialize("/jmol/jsmol");</script>
   </head>
   <body>
-
+    <h1>This is a protein</h1>
+    <script>
+      jmolApplet(400,"load 1aho.pdb","0");
+    </script>
   </body>
 </html>
